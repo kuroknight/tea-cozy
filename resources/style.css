@@ -6,6 +6,10 @@ body {
   background-color: black;
   color: seashell;
   opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
 }
 
 header {
@@ -33,25 +37,54 @@ nav {
 
 main {
   display: flex;
-  padding-top: 69px;
-  width: 100%;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  padding-top: 69px;
+  width:1200px;
 }
 
 .image-content {
   display: flex;
   flex-direction: column;
   height: 700px;
-  width: 1200px;
   justify-content: center;
   align-items: center;
   background-image: url(./images/background.jpg);
+  margin-bottom: 50px;
 }
 
-.text {
+.image-text {
   display: flex;
   flex-direction: column;
   width: 1200px;
   align-items: center;
   background-color: black;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  align-items: center;
+}
+
+h1,
+h4 {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.tea-of-month img {
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  justify-content: center;
 }
