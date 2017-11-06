@@ -15,6 +15,7 @@ header {
   width: 100%;
   justify-content: space-between;
   align-items: center;
+  background-color: black;
   border-bottom: 1px solid seashell;
 }
 
@@ -27,4 +28,30 @@ nav {
   display: flex;
   width:400px;
   justify-content: space-between;
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  padding-top: 69px;
+  width: 100%;
+  justify-content: center;
+}
+
+.image-content {
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/background.jpg);
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  align-items: center;
+  background-color: black;
 }
