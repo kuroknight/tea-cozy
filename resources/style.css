@@ -31,8 +31,11 @@ header {
 nav {
   display: flex;
   width:400px;
-  justify-content: space-between;
-  text-decoration: underline;
+  justify-content: space-around;
+}
+
+a {
+  color: seashell;
 }
 
 main {
@@ -51,7 +54,6 @@ main {
   justify-content: center;
   align-items: center;
   background-image: url(./images/background.jpg);
-  margin-bottom: 50px;
 }
 
 .image-text {
@@ -67,6 +69,7 @@ main {
   flex-direction: column;
   width: 1000px;
   align-items: center;
+  margin-top: 70px;
 }
 
 h1,
@@ -87,4 +90,32 @@ h4 {
   flex-wrap: wrap;
   width: 1000px;
   justify-content: center;
+}
+
+.locations {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  height: 500px;
+  justify-content: center;
+  margin-top: 70px;
+  background-image: url(./images/locations.jpg);
+}
+
+.location-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  opacity: 1;
+  margin: 15px 20px;
 }
