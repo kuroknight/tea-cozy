@@ -1,15 +1,15 @@
 
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
   margin: 0;
   font-family: Helvetica;
   font-size: 22px;
   background-color: black;
   color: seashell;
   opacity: 0.9;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  align-items: center;
 }
 
 header {
@@ -73,10 +73,11 @@ main {
 }
 
 h1,
-h4 {
-  margin: 10px;
+h4,
+h5 {
   display: flex;
   justify-content: center;
+  margin: 10px;
 }
 
 .tea-of-month img {
@@ -118,4 +119,23 @@ h4 {
   background-color: black;
   opacity: 1;
   margin: 15px 20px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: space-around;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  margin-left: 10px;
 }
